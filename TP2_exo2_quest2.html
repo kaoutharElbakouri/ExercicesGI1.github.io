@@ -62,6 +62,42 @@
   font-size:30px;
 }
 
+   @media screen and (max-width:576px) {
+              .grid-container {
+                display: grid;
+                grid-template-areas:
+                  'header   '
+                  'section0  '
+                  'section1  '
+                  'section2  '
+                  'section3  '
+                  'section4  '
+                  'section5  '
+                  'section6  '
+                  ' footer  ';
+                grid-gap: 10px;
+                padding: 10px;
+              }
+                  }
+  
+  
+        @media screen and (max-width:768px) {
+        .grid-container {
+          display: grid;
+          grid-template-areas:
+            'header header header header  '
+            'section0 section0 section0 section0 '
+            'section1 section1 section2 section2 '
+            'section3 section3 section4 section4 '
+            'section5 section5 section5 section5 '
+            'section6 section6 section6 section6 '
+            ' footer footer footer footer ';
+          grid-gap: 10px;
+          padding: 10px;
+        }
+              
+            }
+  
   
       @media screen and (max-width:1200px) {
         .grid-container {
@@ -79,40 +115,9 @@
             }
 
 
-      @media screen and (max-width:768px) {
-        .grid-container {
-          display: grid;
-          grid-template-areas:
-            'header header header header  '
-            'section0 section0 section0 section0 '
-            'section1 section1 section2 section2 '
-            'section3 section3 section4 section4 '
-            'section5 section5 section5 section5 '
-            'section6 section6 section6 section6 '
-            ' footer footer footer footer ';
-          grid-gap: 10px;
-          padding: 10px;
-        }
-              
-            }
 
-            @media screen and (max-width:576px) {
-              .grid-container {
-                display: grid;
-                grid-template-areas:
-                  'header   '
-                  'section0  '
-                  'section1  '
-                  'section2  '
-                  'section3  '
-                  'section4  '
-                  'section5  '
-                  'section6  '
-                  ' footer  ';
-                grid-gap: 10px;
-                padding: 10px;
-              }
-                  }
+
+           
 
 </style>
 </head>
