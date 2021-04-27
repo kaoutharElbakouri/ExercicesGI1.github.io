@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TP2_exo2_question1</title>
+  <meta charset="utf-8">
+<style>
+.item1 { grid-area: header;
+        background-color: blue;
+        height:70px;
+
+      }
+.item2 { grid-area: section0;
+        background-color: khaki;
+        height:60px;
+       }
+.item3 { grid-area: section1;
+        background-color: powderblue;
+        height:100px;
+       }
+.item4 { grid-area: section2;
+  background-color: lightpink;
+  height:100px;
+       }
+.item5 { grid-area: section3;
+        background-color:paleGreen;
+        height:100px;
+       }
+.item6 { grid-area: section4;
+         background-color: coral;
+         height:100px;
+      }
+.item7 { grid-area: section5;
+          background-color: deepSkyBlue;
+          height:100px;
+       }
+.item8 { grid-area: section6;
+         background-color: deepSkyBlue;
+         height:100px;
+       }
+.item9 { grid-area: footer;
+         background-color: mediumPurple;
+         height:70px;
+       }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header  '
+    'section0 section0 section0 section0 '
+    'section1 section2 section3 section4  '
+    'section5 section5 section6 section6  '
+    ' footer footer footer footer ';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  border:2px solid black;
+  text-align: center;
+  padding-top: 20px;
+  font-size:30px;
+
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Layout : CSS</h1>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">section 0</div>
+  <div class="item3">section 1</div>
+  <div class="item4">section 2</div>
+  <div class="item5">section 3</div>
+  <div class="item6">section 4</div>
+  <div class="item7">section 5</div>
+  <div class="item8">section 6</div>
+  <div class="item9">footer</div>
+</div>
+
+</body>
+</html>
