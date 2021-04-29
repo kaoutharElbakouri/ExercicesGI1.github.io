@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ENSAH- Ecole Nationale des Sciences Appliquées Al Hoceima</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body{
+      background-color:whitesmoke;
+    }
+
+    .button1{
+        background-color:blue;
+        width:50%;
+        height:30px;
+        color:white;
+        cursor: pointer;
+        outline:none;
+        margin-left:40%;
+        text-align:center;
+    }
+
+    .item1{
+      grid-area:section1;
+      background-image:url("image_ensah.jpg");
+      background-position: center;
+      background-size: cover;
+      width:100%;
+      height:400px;
+
+
+    }
+
+    .item2{
+      grid-area:section2;
+      background-color:white;
+      width:100%;
+    }
+
+    .item3{
+      grid-area:section3;
+      background-color:white;
+      width:100%;
+    }
+    .item4{
+      grid-area:section4;
+      background-color:white;
+      width:100%;
+    }
+    .item5{
+      grid-area:section5;
+      background-color:white;
+      width:100%;
+    }
+    .item6{
+      grid-area:section6;
+      background-color:white;
+      width:100%;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'section1'
+        'section2'
+        'section3'
+        'section4'
+        ' section5 '
+        'section6';
+      grid-gap: 20px;
+      padding: 10px;
+    }
+    .box1{
+      display:inline;
+      /*background-image: url("im1.png");
+      background-size:cover;*/
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;
+      float:left;
+      padding:5px;
+    }
+    .box2{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size:15px;
+    }
+
+    .box3{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;
+      float:left;
+      padding:5px;
+    }
+    .box4{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size: 15px;
+    }
+    .box5{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;;
+      float:left;
+      padding:5px;
+    }
+    .box6{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size: 15px;
+    }
+    .box7{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;
+      float:left;
+      padding:5px;
+    }
+    .box8{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size: 15px;
+    }
+    .box9{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;
+      float:left;
+      padding:5px;
+    }
+    .box10{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size: 15px;
+    }
+    .box11{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;
+      float:left;
+      padding:5px;
+    }
+    .box12{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size: 15px;
+    }
+    .box13{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;
+      float:left;
+      padding:5px;
+    }
+    .box14{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size: 15px;
+    }
+
+    .box15{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:20%;
+      height:90px;
+      float:left;
+      padding:5px;
+    }
+    .box16{
+      display:inline;
+      border:1px white;
+      background-color:white;
+      width:70%;
+      height:90px;
+      float:left;
+      padding:5px;
+      font-size: 15px;
+    }
+
+  </style>
+</head>
+
+
+
+<body>
+  <div class="grid-container" >
+    <div class="item1" > </div>
+
+    <div class="item2" >
+      <center>
+      <h4>PLATEFORME E-SERVICES ENSAH </h4>
+      <img src="eserviceslogo.png" style="width:20%;height:100px;">
+      </center>
+      <br><br>
+      <form style="margin-left:7%;">
+        <label for="name" >Nom d'utilisateur:</label><br>
+        <input type="text" id="name" name="name" style="width:90%;height:30px;"><br><br>
+        <label for="mdp" >Mot de passe:</label><br>
+        <input type="text" id="mdp" name="mdp"  style="width:90%;height:30px;"><br><br>
+      </form>
+         <p style="margin-left:7%"><a href="questions.php">Questions?</a> | <a href="mot_de_passe.php">Mot de passe oublié</a></p>
+         <button type="submit" class="button1">Se connecter</button><br>
+    </div>
+
+
+    <div class="item3" >
+
+        <h4 style="margin-left:5%;">ACTUALITÉS GRAND PUBLIC</h4>
+        <hr>
+          <div class="grid1" style="width:100%;height:100px;">
+            <div class="box1" ><img src="im1.png" style="height:100%;width:95%;margin-left:5%;"></div>
+            <div class="box2" > <a href="link1.php">نداء للمشاركة في ربيع الإبداع الجامعي عن بعد</a><br>publié le 27/04/2021 à 14:44</div>
+          </div>
+        <hr style="border:1px dashed;">
+
+
+        <div class="grid2" style="width:100%;height:100px;">
+          <div class="box3" ><img src="im2.png" style="height:100%;width:95%;margin-left:5%;"></div>
+          <div class="box4" > <a href="link2.php" >Avis aux Etudiants du Cycle Ingénieur : Enseignement Présentiel</a><br>publié le 13/04/2021 à 17:23</div>
+        </div>
+      <hr style="border:1px dashed;">
+
+
+      <div class="grid3" style="width:100%;height:100px;">
+        <div class="box5" ><img src="im3.png" style="height:100%;width:95%;margin-left:5%;"></div>
+        <div class="box6" > <a href="link3.php" >عبارات تهنئة بمناسبة شهر رمضان المبارك </a><br>publié le 13/04/2021 à 17:04</div>
+      </div>
+    <hr style="border:1px dashed;">
+
+
+    <div class="grid4" style="width:100%;height:100px;">
+      <div class="box7" ><img src="im4.png" style="height:100%;width:95%;margin-left:5%;"></div>
+      <div class="box8" > <a href="link4.php" >Avis : décision du conseil d'établissement concernant le modèle pédagogique de la session du printemps</a><br>publié le 01/04/2021 à 14:04</div>
+    </div>
+  <hr style="border:1px dashed;">
+</div>
+
+
+
+    <div class="item4" style="background-color:white;width:100%;border:0px white;padding:4%;" >
+      <h2 >ENSA d'Al-Hoceima</h2>
+      <p style="text-align: justify;">
+    <strong>l'Ecole Nationale des Sciences Appliquées d'Al-Hoceima
+        (ENSAH)</strong> est un établissement public d'enseignement
+    supérieur relevant de l'université Abdelmalek Essaadi. Sa création
+    s'inscrit dans l'optique de favoriser la formation des ingénieurs
+    d'Etat hautement qualifiés dans les spécialités les plus ouvertes
+    et susceptibles de connaître d'importants développements au sein
+    du tissu socio-économique régional et national. Le positionnement
+    de l'Ecole contribuera à lui conférer une dimension
+    euro-méditerranéenne et à répondre aux besoins régionaux et
+    nationaux en matière de formation en ingénierie. L'Ecole
+    Nationale des Sciences Appliquées Al-Hoceima dispense des
+    formations de deux années préparatoires et trois années de
+    spécialités dans les domaines suivants : <a href="link5.php">Lire la suite »</a>
+</p>
+    </div>
+
+
+    <div class="item5" >
+      <h4 style="margin-left:4%;">ESPACE INTERNE</h4>
+      <hr>
+      <div class="grid5" style="width:100%;height:100px;">
+        <div class="box9" ><img src="icon1.png" style="height:100%;width:95%;margin-left:5%;"></div>
+        <div class="box10" > <br><a href="link2.php" >Votre tableau d'affichage en ligne</a><br>Denière publication le 29/04/2021 à 01:57</div>
+      </div>
+    <hr style="border:1px dashed;">
+
+    <div class="grid6" style="width:100%;height:100px;">
+      <div class="box11" ><img src="icon2.png" style="height:100%;width:95%;margin-left:5%;"></div>
+      <div class="box12" > <br><a href="link2.php" >Vos emplois du temps</a><br>Dernière modification le 23/04/2021 à 11:30</div>
+    </div>
+
+    </div>
+
+
+
+
+    <div class="item6" >
+      <h4 style="margin-left:4%;">EVENEMENTS</h4>
+      <hr>
+      <div class="grid7" style="width:100%;height:100px;">
+        <div class="box13" >
+          <table style="width:100%;height:95%;margin-left:5%;">
+          <tr>
+            <th style="height:20%;background-color:blue;color:white;align-text:center;">Mars</th>
+          </tr>
+          <tr>
+            <td style="height:80%;background-color:lightgray;color:black;font-size:30px;align-text:center;"><center>26</center></td>
+          </tr>
+        </table>
+      </div>
+        <div class="box14" > <br><a href="link2.php" >SOUK AT TANMIA</a><br>Le 26 Mars 2020</div>
+      </div>
+    <hr style="border:1px dashed;">
+
+    <div class="grid8" style="width:100%;height:100px;">
+      <div class="box15" >
+        <table style="width:100%;height:95%;margin-left:5%;">
+        <tr>
+          <th style="height:20%;background-color:blue;color:white;align-text:center;">Mars</th>
+        </tr>
+        <tr>
+          <td style="height:80%;background-color:lightgray;color:black;font-size:30px;align-text:center;"><center>28</center></td>
+        </tr>
+      </table>
+      </div>
+      <div class="box16" > <br><a href="link2.php" >Journée scientifique LSA</a><br>Le 28 Mars 2020</div>
+    </div>
+     </div>
+  </div>
+
+<body>
+</html>
